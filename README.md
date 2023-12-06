@@ -1,1 +1,15 @@
 https://devpost.com/software/studium2-0
+## Inspiration
+As members of the Covid Cohort, our team knows all too well the importance of making friends with classmates. However, this can be tough sometimes as lectures are not the best and easiest places to socialize, especially if they are online. As this feeling is shared amongst the school population, we have decided to create a webpage that facilitates the connecting of students with similar interest, current and/or past classes. This can ease students into getting to know their classmates as well as create a low effort and low stress way to make study groups.
+## What it does
+The webpage allows students to create profiles with their image, a bio, their major, and courses they have taken and/or are taking. They can then go and look through the profiles of other users and match with other students on the app. If two users like each other, the webpage provides a chatting page for both members to connect and find somewhere to study. 
+## How we built it
+We built the front end of the webpage with React and Node.js. The back end and the database was done with the Firebase Firestore. All styling was done with CSS. The implementation started with planning the architecture of the program. Once that was done we split tasks by functionality like the messaging system or the user profile cards so each member could work in parallel. We used Github for version control, we were able to finish and combine each part to make the final product.
+## Challenges we ran into
+A big challenge the team ran into was integration of the Firestore Database as most of the team had never used this technology before. The design choices on the schema of data in our database as well as the communication between the front end and back end were also areas some in the team had little experience with. We also had massive difficulty with front-end design.
+## Accomplishments that we're proud of
+The messaging system between users is something the team is very proud of as no one in the team had ever implemented  before. It was also one of the key features of the project so completing it was very satisfying. We are proud of the entire project, the matching system works in real time, and so does the messaging system.
+## What we learned
+As a team, we learned a lot on the managing of data and databases as well as the tracking of users on a program
+## What's next for Studium2.0
+We hope that with our newfound experience, we can try and add features to Studium2.0 such as creating group chats or the ability of looking up users for an experience closer to the usual social medias. The ability to actually deploy and have the project receive feedback from more users would also be something to look into. Then maybe as a very far goal would be to make our idea scalable to be able to handle the population of McGill as a test on our skills as programmers (if the userbase grows enough we can even use the data collected to train AI models to provide better matching of users).
